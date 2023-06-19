@@ -6,7 +6,7 @@ import Home from './pages/Home';
 import SignIn from './pages/SignIn';
 import SignUp from './pages/SignUp';
 import { AuthContext } from './context/AuthContext';
-import {PrivateRoutes} from './components/PrivateRouter';
+//import {PrivateRoutes} from './components/PrivateRouter';
 import './App.css';
 
 function App() {

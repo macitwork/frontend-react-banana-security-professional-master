@@ -5,11 +5,11 @@ function PrivateRoutes({ isAuth,children }) {
     console.log (isAuth)
 
     return isAuth === true ? (children) :    (
-        <>
+       <>
 
             <Outlet/>
             <Navigate to="/" />;
         </>
-    );
+   );
 }
 export default PrivateRoutes;
